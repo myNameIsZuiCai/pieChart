@@ -15,6 +15,7 @@
 		BDB7E8FC1E31B48A00A7ABF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB7E8FA1E31B48A00A7ABF5 /* LaunchScreen.storyboard */; };
 		BDB7E9071E31B48A00A7ABF5 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB7E9061E31B48A00A7ABF5 /* ____Tests.m */; };
 		BDB7E9121E31B48A00A7ABF5 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB7E9111E31B48A00A7ABF5 /* ____UITests.m */; };
+		BDB7E9211E31BEDB00A7ABF5 /* drawView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB7E9201E31BEDB00A7ABF5 /* drawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BDB7E90D1E31B48A00A7ABF5 /* 画饼状图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "画饼状图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB7E9111E31B48A00A7ABF5 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		BDB7E9131E31B48A00A7ABF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB7E91F1E31BEDB00A7ABF5 /* drawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawView.h; sourceTree = "<group>"; };
+		BDB7E9201E31BEDB00A7ABF5 /* drawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				BDB7E8FA1E31B48A00A7ABF5 /* LaunchScreen.storyboard */,
 				BDB7E8FD1E31B48A00A7ABF5 /* Info.plist */,
 				BDB7E8EC1E31B48A00A7ABF5 /* Supporting Files */,
+				BDB7E91F1E31BEDB00A7ABF5 /* drawView.h */,
+				BDB7E9201E31BEDB00A7ABF5 /* drawView.m */,
 			);
 			path = "画饼状图";
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				BDB7E8F41E31B48A00A7ABF5 /* ViewController.m in Sources */,
 				BDB7E8F11E31B48A00A7ABF5 /* AppDelegate.m in Sources */,
+				BDB7E9211E31BEDB00A7ABF5 /* drawView.m in Sources */,
 				BDB7E8EE1E31B48A00A7ABF5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
